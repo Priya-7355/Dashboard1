@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 5vh 3vw;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(main.jfif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.port {
+    width: 50%;
+    list-style: none;
+    padding-left: 5vw;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.port a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    height: 87vh;
+}
+.box-main {
+    margin-left: 15vw;
+    padding-top: 25vh;
+}
+.text-small{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white
+}
+.text-big {
+    color: orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 53px;
+}
+.text-mid {
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn {
+    width: 110px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    border: 3px solid white;
+    color: orangered;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+.about {
+    height: 80vh; 
+    width: 100%;
+}
+.abhead {
+    padding-top: 4vh;
+    text-align: center;
+}
+.abhead h1 {
+    font-size: 6.5vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abhead i {
+    color: orangered;
+    font-size: 3vh;
+}
+.first {
+    display: flex;
+    padding-top: 6vh;
+    padding-left: 10vw; 
+    /*padding-bottom: 10vh;*/
+}
+.myimage {
+    padding-right: 2vw;
+}
+.myimage img {
+    width: 45%;
+}
+.aboutme {
+    margin-top: 8vh;
+    margin-right:80px ;
+}
+.aboutme h1 {
+    font-size: 6vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aboutme p {
+    font-size: 2.6vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.skills {
+    height: 50vh;
+    background-color: rgb(8, 8, 81);
+}
+.wholeskill {
+    display: flex;
+    width: 100%;
+}
+.myskills {
+    text-align: center;
+    padding-top: 4vh;
+}
+.myskills h1 {
+    color: white;
+    font-size: 6.5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myskills i {
+    color: orangered;
+    font-size: 3vh;
+    margin-bottom: 2px;
+}
+.skillcont {
+    color: white;
+}
